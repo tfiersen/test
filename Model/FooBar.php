@@ -2,6 +2,9 @@
 
 App::uses('TestAppModel', 'Test.Model');
 
+/**
+ * Class FooBar
+ */
 class FooBar extends TestAppModel {
 
 }
