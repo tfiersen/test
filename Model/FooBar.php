@@ -7,4 +7,9 @@ App::uses('TestAppModel', 'Test.Model');
  */
 class FooBar extends TestAppModel {
 
+	public function beforeSave($options = array())
+	{
+		return parent::beforeSave($options);
+	}
+
 }
