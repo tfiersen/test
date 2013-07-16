@@ -22,8 +22,4 @@ class TestAppController extends AppController {
 		return 'bar';
 	}
 
-	public function aboutToBeReverted()
-	{
-
-	}
 }
