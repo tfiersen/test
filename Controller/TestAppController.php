@@ -2,7 +2,15 @@
 
 App::uses('AppController', 'Controller');
 
+/**
+ * Class TestAppController
+ */
 class TestAppController extends AppController {
+
+	/**
+	 * @var int
+	 */
+	public $bar = 42;
 
 	/**
 	 * Returns `bar`
