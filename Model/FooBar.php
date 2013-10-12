@@ -9,6 +9,6 @@ class FooBar extends TestAppModel {
 
 	public function test()
 	{
-
+		return 42;
 	}
 }
