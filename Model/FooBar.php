@@ -16,4 +16,8 @@ class FooBar extends TestAppModel {
 		return parent::beforeSave($options);
 	}
 
+	public function test()
+	{
+
+	}
 }
